@@ -12,7 +12,7 @@ This is a boilerplate test project that uses WebdriverIO 6 to connect to Selenoi
 Usage & configuration 
 =============
 
-Please set `hostname` in `wdio.conf.js` to you Selenoid Hub hostname.
+Please set `hostname` in `wdio.conf.js` to your Selenoid Hub hostname.
 
 Run `npm t` to proceed with a simple test
 
