@@ -9,6 +9,10 @@
   },
   "author": "Nikolai Orekhov",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sherlock1982/wdio-selenoid-boilerplate.git"
+  },
   "dependencies": {
     "@types/mocha": "^7.0.2",
     "@typescript-eslint/eslint-plugin": "^3.2.0",
