@@ -24,7 +24,7 @@
     "@wdio/sync": "^6.1.14",
     "eslint": "^7.2.0",
     "eslint-plugin-import": "^2.21.2",
-    "mocha": "^8.0.1",
+    "mocha": "7.0.0",
     "ts-node": "^8.10.2",
     "typescript": "^3.9.5",
     "wdio-selenoid-video-reporter": "^1.0.5"
