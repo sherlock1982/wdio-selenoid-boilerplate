@@ -21,9 +21,9 @@ Run `npm run lint` to lint your tests
 WebStorm compatibility 
 =============
 
-WebStorm doesn't have a convenient way to launch WebdriverIO tests.
+WebStorm doesn't have a convenient way to launch WebdriverIO tests. That's why I added a couple of files to help you run WebdriverIO tests directly from IDE.
 
-`mocha.opts` file will be included automatically when WebStorm will launch mocha test.
+`mocha.opts` file will be included automatically when WebStorm will launch a Mocha test.
 
 `mocha.patch.js` contains necessary boilerplate code to initialize WebdriverIO and run it under Mocha
 
