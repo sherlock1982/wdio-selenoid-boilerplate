@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "typeRoots": [
+      "node_modules/@types"
+    ],
+    "types": [
+      "@wdio/sync",
+      "@wdio/mocha-framework",
+      "expect-webdriverio",
+      "node"
+    ]
+  },
+  "include": [
+    "test/**/*.ts"
+  ]
+}
