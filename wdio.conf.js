@@ -29,7 +29,7 @@ exports.config = {
     // Allow more time to download video
     reporterSyncTimeout: 60000,
     // Don't check reporters too often
-    reporterSyncInterval: 1000,
+    reporterSyncInterval: 5000,
 
     //
     // ==================
@@ -104,7 +104,7 @@ exports.config = {
     baseUrl: 'http://localhost',
     //
     // Default timeout for all waitFor* commands.
-    waitforTimeout: 10000,
+    waitforTimeout: 60000,
     //
     // Default timeout in milliseconds for request
     // if browser driver or grid doesn't send response
@@ -148,6 +148,7 @@ exports.config = {
     // Options to be passed to Mocha.
     mochaOpts: {
         ui: 'bdd',
+        timeout: 60000,
         // TypeScript setup
         require: 'ts-node/register',
     },
